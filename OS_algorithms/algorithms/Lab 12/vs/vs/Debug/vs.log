@@ -1,0 +1,33 @@
+﻿Build started 1/23/2021 9:08:26 AM.
+     1>Project "C:\Users\user\Desktop\Semester 4\OS Lab\Lab 12\vs\vs\vs.vcxproj" on node 2 (build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+     1>InitializeBuildStatus:
+         Touching "Debug\vs.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\vs.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt assg.cpp
+         assg.cpp
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(2): warning C4627: '#include <conio.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(3): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(4): warning C4627: '#include <queue>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(22): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(36): error C2065: 'cout' : undeclared identifier
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(36): error C2065: 'endl' : undeclared identifier
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(56): error C2065: 'blockAllocation' : undeclared identifier
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(56): error C2228: left of '.push' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(58): error C2065: 'blockAllocation' : undeclared identifier
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(58): error C2228: left of '.push' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(154): error C2065: 'cout' : undeclared identifier
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(154): error C2065: 'endl' : undeclared identifier
+     1>c:\users\user\desktop\semester 4\os lab\lab 12\vs\vs\assg.cpp(155): error C3861: 'getch': identifier not found
+     1>Done Building Project "C:\Users\user\Desktop\Semester 4\OS Lab\Lab 12\vs\vs\vs.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.47

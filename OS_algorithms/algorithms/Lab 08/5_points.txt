@@ -1,0 +1,12 @@
+
+Threads are subset of processes. the subsets of processes are smallest unit of processing that can be performed in an OS.
+
+Threads are light weight processes. A single process can create multiple threads.
+
+Threads share their adresses space while processes have seperate address spaces.
+
+Multi threading means two or more threads running concurrently where each thread is handling a different task.
+This concurrent manner is used for better resource optimization and centraliztion.
+
+The join function is used to halt the execution of main thread until its child thread is done execution.
+The detach funtion is used to deatache a thread from parent thread. it allows the main thread and child process to execute independetly.
